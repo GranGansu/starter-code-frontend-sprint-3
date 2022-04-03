@@ -1,0 +1,153 @@
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #afcbed;
+    border-bottom: 4px solid #e9d062;
+}
+
+section .container {
+    background: white;
+    padding-top: 30px;
+    border-top: 20px solid #edd464;
+    border-radius: 8px;
+
+    background: url(../images/cat1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #fec5bb;
+    background: url(../images/cat1.png) left bottom no-repeat rgb(101 47 82);
+}
+
+#navbar-example2 {
+    background-color: #f59074;
+    border-top: 4px solid #e9d062;
+}
+
+li a {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+h1 span {
+    font-weight: bold;
+    background: aliceblue;
+    color: black;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+* {
+    font-family: Rubik;
+}
+
+.lh-lg {
+    line-height: 3 !important;
+}
+
+h2 {
+    font-family: Send Flowers;
+}
+
+.borrar {
+    border: 1px solid gainsboro;
+    box-shadow: 2px 1px 2px #0000001c;
+}
+
+ul {
+    list-style: none;
+}
+.ul-li-total{
+    padding-left: 0;
+}
+.ul-li-total li {
+    padding: 10px;
+}
+
+.ul-li-total li:nth-child(odd) {
+    background: #dcdcdc40;
+    padding: 10px;
+}
+
+.banner img {
+    width: 30vw;
+}
+
+@media (max-width: 768px) {
+    .banner img {
+        width: 60vw;
+    }
+
+    h3 {
+        font-size: small;
+    }
+
+    .h3-special {
+        font-size: x-large;
+    }
+}
+
+.card {
+    border: none
+}
+
+a span {
+    font-size: small;
+    font-weight: bold;
+    margin: 0px 0px 5px 8px;
+}
+
+.lead {
+    background: gray;
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    border-radius: 4px;
+}
+
+#Alime
+
+/*  */
+nto {
+    background: url(../images/cat1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #fec5bb;
+    border-top: 10px solid gainsboro;
+}
+
+#Juguet
+
+/*  */
+es {
+    background: url(../images/cat1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #ece4db;
+}
+
+#Rascado
+
+/*  */
+res {
+    background: url(../images/cat2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #e8e8e4;
+}
+
+#Nuevo {
+    background: linear-gradient(180deg, #fec5bb, #e8e8e4);
+    padding-top: 99px !important;
+    display: none
+}
+
+#Nuevo2 {
+    background: linear-gradient(180deg, #e8e8e4, #ece4db);
+    padding-top: 99px !important;
+    display: none
+}
